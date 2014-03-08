@@ -8,3 +8,6 @@ set expandtab
 set autoindent
 set nowrap
 syntax enable
+
+" Setup environment
+set ruler
