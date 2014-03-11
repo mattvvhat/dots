@@ -7,7 +7,12 @@ set shiftwidth=2
 set expandtab
 set autoindent
 set nowrap
+
 syntax enable
 
 " Setup environment
 set ruler
+
+" Cursor line
+set cursorline
+hi CursorLine cterm=NONE ctermbg=54 ctermfg=white
