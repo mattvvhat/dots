@@ -4,6 +4,10 @@ export PS1="\e[0;33m\W 🍕  \e[m"
 export CLICOLOR=1
 export LSCOLORS=gxFxCxDxbxegedabagacad
 export JAVA_HOME=`/usr/libexec/java_home`
+
+alias l="ls -l"
+alias ll="ls -la"
+
 if [ -f ~/.profile ]; 
 then 
   . ~/.profile; 
