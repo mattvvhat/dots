@@ -7,12 +7,8 @@ set shiftwidth=2
 set expandtab
 set autoindent
 set nowrap
-
 syntax enable
+filetype plugin indent on
 
 " Setup environment
 set ruler
-
-" Cursor line
-set cursorline
-hi CursorLine cterm=underline
